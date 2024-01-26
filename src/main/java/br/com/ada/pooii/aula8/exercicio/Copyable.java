@@ -1,2 +1,5 @@
-package br.com.ada.pooii.aula8.exercicio;public interface Copyable {
+package br.com.ada.pooii.aula8.exercicio;
+
+public interface Copyable {
+    void copy();
 }

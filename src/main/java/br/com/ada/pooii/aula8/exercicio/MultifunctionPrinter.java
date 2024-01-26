@@ -1,9 +1,6 @@
-package br.com.ada.pooii.aula8;
+package br.com.ada.pooii.aula8.exercicio;
 
-public interface MultifunctionPrinter {
+public interface MultifunctionPrinter extends Printable, Scannable, Faxable, Copyable {
 
-
-    void print();
-    
 
 }
