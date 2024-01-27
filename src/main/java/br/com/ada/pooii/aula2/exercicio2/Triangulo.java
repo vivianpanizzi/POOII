@@ -1,11 +1,10 @@
 package br.com.ada.pooii.aula2.exercicio2;
 
 public class Triangulo implements Shape {
-
-    int base = 20;
-    int altura = 30;
-
-    public double calcularÁrea() {
-        return base*altura;
+    @Override
+    public double calcularArea() {
+        double base = 20;
+        double altura = 30;
+        return (base * altura)/2;
     }
 }
